@@ -6,8 +6,8 @@ Determine application referrer
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stb)
 
 
-`util-referrer` is a function to receive a link to the previous application.
-It's necessary to make a correct exit from the current application to go back.
+`util-referrer` is a module to make a correct exit from the current application.
+It can use `document.referrer` or URL GET parameter `referrer` to extract a link to the previous application.
 
 
 ## Installation
