@@ -5,7 +5,7 @@
 
 'use strict';
 
-var parseQuery = require('stb-util-parse-query');
+var parseQuery = require('cjs-parse-query');
 
 
 /**

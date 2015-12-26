@@ -1,8 +1,8 @@
 Determine application referrer
 ==============================
 
-[![NPM version](https://img.shields.io/npm/v/stb-util-referrer.svg?style=flat-square)](https://www.npmjs.com/package/stb-util-referrer)
-[![Dependencies Status](https://img.shields.io/david/stbsdk/util-referrer.svg?style=flat-square)](https://david-dm.org/stbsdk/util-referrer)
+[![NPM version](https://img.shields.io/npm/v/stb-referrer.svg?style=flat-square)](https://www.npmjs.com/package/stb-referrer)
+[![Dependencies Status](https://img.shields.io/david/stbsdk/referrer.svg?style=flat-square)](https://david-dm.org/stbsdk/referrer)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stb)
 
 
@@ -13,7 +13,7 @@ It can use `document.referrer` or URL GET parameter `referrer` to extract a link
 ## Installation
 
 ```bash
-npm install stb-util-referrer
+npm install stb-referrer
 ```
 
 
@@ -22,7 +22,7 @@ npm install stb-util-referrer
 Add to the scope:
 
 ```js
-var referrer = require('stb-util-referrer');
+var referrer = require('stb-referrer');
 ```
 
 Go back to the previous application:
@@ -41,10 +41,10 @@ In debug mode the util method is exposed to the global namespace as `window.util
 
 ## Contribution
 
-If you have any problem or suggestion please open an issue [here](https://github.com/stbsdk/util-referrer/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/stbsdk/referrer/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
 ## License
 
-`stb-util-referrer` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
+`stb-referrer` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
