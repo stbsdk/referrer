@@ -21,12 +21,8 @@
     },
     "keywords": [
         "stb",
-        "sdk",
-        "device",
-        "tv",
-        "devkit",
+        "stbsdk",
         "framework",
-        "util",
         "referrer"
     ],
     "license": "GPL-3.0"
