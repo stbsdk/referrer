@@ -10,14 +10,14 @@ Module to make a correct exit from the current application.
 It can use `document.referrer` or URL GET parameter `referrer` to extract a link to the previous application.
 
 
-## Installation
+## Installation ##
 
 ```bash
 npm install stb-referrer
 ```
 
 
-## Usage
+## Usage ##
 
 Add to the scope:
 
@@ -32,19 +32,19 @@ location.href = referrer() || 'http://google.com/';
 ```
 
 
-## Debug mode
+## Debug mode ##
 
 > There is a global var `DEBUG` which activates additional consistency checks and protection logic not available in release mode.
 
 In debug mode the util method is exposed to the global namespace as `window.utilReferrer`.
 
 
-## Contribution
+## Contribution ##
 
 If you have any problem or suggestion please open an issue [here](https://github.com/stbsdk/referrer/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
-## License
+## License ##
 
 `stb-referrer` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
