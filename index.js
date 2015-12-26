@@ -1,6 +1,4 @@
 /**
- * @module stb-util-referrer
- *
  * @author Stanislav Kalashnik <sk@infomir.eu>
  * @license GNU GENERAL PUBLIC LICENSE Version 3
  */
