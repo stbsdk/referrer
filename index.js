@@ -20,26 +20,26 @@ var parseQuery = require('stb-util-parse-query');
  * location.href = referrer() || 'http://google.com/';
  */
 module.exports = function () {
-	var queryParams = parseQuery(location.search.substring(1));
+    var queryParams = parseQuery(location.search.substring(1));
 
-	if ( queryParams.referrer ) {
-		// referrer in GET
-		return decodeURIComponent(queryParams.referrer);
-	}
+    if ( queryParams.referrer ) {
+        // referrer in GET
+        return decodeURIComponent(queryParams.referrer);
+    }
 
-	if ( document.referrer ) {
-		// if in app was used location.reload method, document.referrer === app link, and must return false
-		if ( location.href.split('#')[0] === document.referrer ) {
-			return false;
-		}
-		return document.referrer;
-	}
+    if ( document.referrer ) {
+        // if in app was used location.reload method, document.referrer === app link, and must return false
+        if ( location.href.split('#')[0] === document.referrer ) {
+            return false;
+        }
+        return document.referrer;
+    }
 
-	return false;
+    return false;
 };
 
 
 if ( DEBUG ) {
-	// expose to the global scope
-	window.utilReferrer = module.exports;
+    // expose to the global scope
+    window.utilReferrer = module.exports;
 }
