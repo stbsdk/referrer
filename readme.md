@@ -36,8 +36,6 @@ location.href = referrer() || 'http://google.com/';
 
 > There is a global var `DEBUG` which activates additional consistency checks and protection logic not available in release mode.
 
-In debug mode the util method is exposed to the global namespace as `window.utilReferrer`.
-
 
 ## Contribution ##
 

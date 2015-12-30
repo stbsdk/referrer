@@ -35,9 +35,3 @@ module.exports = function () {
 
     return false;
 };
-
-
-if ( DEBUG ) {
-    // expose to the global scope
-    window.utilReferrer = module.exports;
-}
