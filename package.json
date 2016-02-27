@@ -13,7 +13,7 @@
         "webpack": "webpack -d ./tests/main.js ./tests/build.js"
     },
     "dependencies": {
-        "cjs-parse-query": "1.*.*"
+        "cjs-parse-query": "cjssdk/parse-query"
     },
     "keywords": [
         "stb",
