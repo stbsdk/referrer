@@ -15,6 +15,9 @@
     "dependencies": {
         "cjs-parse-query": "cjssdk/parse-query"
     },
+    "devDependencies": {
+        "stb-eslint-config": "stbsdk/eslint-config"
+    },
     "keywords": [
         "stb",
         "stbsdk",
