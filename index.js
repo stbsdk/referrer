@@ -5,7 +5,7 @@
 
 'use strict';
 
-var parseQuery = require('cjs-parse-query');
+var parse = require('cjs-query').parse;
 
 
 /**
@@ -18,7 +18,7 @@ var parseQuery = require('cjs-parse-query');
  * location.href = referrer() || 'http://google.com/';
  */
 module.exports = function () {
-    var queryParams = parseQuery(location.search.substring(1));
+    var queryParams = parse(location.search.substring(1));
 
     if ( queryParams.referrer ) {
         // referrer in GET
@@ -30,6 +30,7 @@ module.exports = function () {
         if ( location.href.split('#')[0] === document.referrer ) {
             return false;
         }
+
         return document.referrer;
     }
 

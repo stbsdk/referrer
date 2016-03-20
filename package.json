@@ -13,7 +13,7 @@
         "webpack": "webpack -d ./tests/main.js ./tests/build.js"
     },
     "dependencies": {
-        "cjs-parse-query": "cjssdk/parse-query"
+        "cjs-query": "cjssdk/query"
     },
     "devDependencies": {
         "stb-eslint-config": "stbsdk/eslint-config"
