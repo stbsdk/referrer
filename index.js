@@ -22,7 +22,7 @@ module.exports = function () {
 
     if ( queryParams.referrer ) {
         // referrer in GET
-        return decodeURIComponent(queryParams.referrer);
+        return queryParams.referrer;
     }
 
     if ( document.referrer ) {
