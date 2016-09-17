@@ -1,6 +1,7 @@
 Determine application referrer
 ==============================
 
+[![Build Status](https://img.shields.io/travis/stbsdk/referrer.svg?style=flat-square)](https://travis-ci.org/stbsdk/referrer)
 [![NPM version](https://img.shields.io/npm/v/stb-referrer.svg?style=flat-square)](https://www.npmjs.com/package/stb-referrer)
 [![Dependencies Status](https://img.shields.io/david/stbsdk/referrer.svg?style=flat-square)](https://david-dm.org/stbsdk/referrer)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stbsdk)
